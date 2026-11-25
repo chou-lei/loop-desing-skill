@@ -1,0 +1,5 @@
+.DS_Store
+*.swp
+research/
+raw/
+.playwright-cli/
