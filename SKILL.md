@@ -55,5 +55,5 @@ Optional: a cross-verify evidence file path under `~/research/` in Context, when
 ## Rules
 - Do not over-engineer the spec. Keep it as short as the task allows.
 - Do not expand scope. Touch only what the user said may change.
-- Escape a leading `#` in user-supplied lines as `\#` so they are not parsed as Markdown headings.
+- Escape a leading `#` only in user-supplied field values as `\#` so they are not parsed as Markdown headings. Never escape the `# Loop Spec` title or the `##` section headings.
 - Never put passwords, tokens, or seed-private material in the spec.
